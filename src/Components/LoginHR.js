@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 
 export default class LoginHR extends React.Component {
     state = {
-      email: [],
+      emailCandidates: [],
     };
+
 
   render() {
     return (
