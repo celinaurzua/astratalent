@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
+
 
 
 class Testwelcome extends Component {
+
+  AlertStartTest() {
+    alert("XXXXX") 
+   }
+
+
   render() {
     return (
       <div>
@@ -12,8 +20,9 @@ class Testwelcome extends Component {
           <p></p>
           <input type="checkbox">Notice of Privace</input>
           <Link to="testone">
-          <button>START TEST 1</button>
+          <button onClick={() => this.AlertStartTest()}>START TEST 1</button>
           </Link>
+          <Footer/>
       </div>
     );
   }

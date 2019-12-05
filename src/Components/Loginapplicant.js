@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 
 class Loginapplicant extends Component {
@@ -10,6 +11,7 @@ class Loginapplicant extends Component {
           <Link to="/welcome">
           <button>Log in</button>
           </Link>
+          <Footer/>
       </div>
     );
   }

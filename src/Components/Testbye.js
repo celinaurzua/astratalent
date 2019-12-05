@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header'
+import Header from './Header';
+import Footer from './Footer';
 
 class Testbye extends Component {
   render() {
@@ -11,6 +12,7 @@ class Testbye extends Component {
           <Link to="/">
           <button>Log out</button>
           </Link>
+          <Footer/>
       </div>
     );
   }
