@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 
 
-class Loginrh extends Component {
+export default class LoginHR extends React.Component {
+    state = {
+      email: [],
+    };
+
   render() {
     return (
       <div>
@@ -12,4 +16,3 @@ class Loginrh extends Component {
   }
 }
 
-export default Loginrh;
