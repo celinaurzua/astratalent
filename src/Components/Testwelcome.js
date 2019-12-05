@@ -9,6 +9,8 @@ class Testwelcome extends Component {
       <div>
         <Header/>
           <p>Welcome</p>
+          <p></p>
+          <input type="checkbox">Notice of Privace</input>
           <Link to="testone">
           <button>START TEST 1</button>
           </Link>
