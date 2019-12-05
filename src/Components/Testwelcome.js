@@ -4,14 +4,21 @@ import Header from './Header';
 import Footer from './Footer';
 
 
+
 class Testwelcome extends Component {
+
+  AlertStartTest() {
+    alert("XXXXX") 
+   }
+
+
   render() {
     return (
       <div>
         <Header/>
           <p>Welcome</p>
           <Link to="testone">
-          <button>START TEST 1</button>
+          <button onClick={() => this.AlertStartTest()}>START TEST 1</button>
           </Link>
           <Footer/>
       </div>

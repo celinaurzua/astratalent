@@ -6,6 +6,11 @@ import Footer from './Footer';
 
 
 class Testtwo extends Component {
+
+  AlertStartTest() {
+    alert("XXXXX") 
+   }
+
   render() {
     return (
       <div>
@@ -13,7 +18,7 @@ class Testtwo extends Component {
           <p>Test Teórico</p>
           <Timer/>
           <Link to="testthree">
-          <button>START TEST 3</button>
+          <button onClick={() => this.AlertStartTest()}>START TEST 3</button>
           </Link>
           <Footer/>
       </div>
