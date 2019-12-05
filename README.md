@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Talent Fest Laboratoria
 
-## Available Scripts
+Track: AstraZeneca
 
-In the project directory, you can run:
+Equipo Astra Talent
 
-### `npm start`
+Integrantes:	
+Maria Isela Carrillo Pérez
+Karla Álvarez Castillo
+Celina Urzúa Delgado
+Paulina Montoya Muñoz
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Introducción
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Las herramientas tecnológicas y redes sociales laborales son de vital importancia para la búsqueda de talento para reclutadores en IT. 
+Por ejemplo, podemos mencionar a Linkedin, una de las redes sociales laborales más conocidas. Posee una base de datos de 100 millones de perfiles. Esta red social laboral permite a los reclutadores encontrar los perfiles que están buscando accediendo a los mismos con solo escribir en el buscador las palabras claves. 
+Se estima que, el 57% de las empresas utilizan evaluaciones previas a la contratación para probar los conocimientos, habilidades y otras calificaciones de sus candidatos, por lo que los proveedores en este espacio tienen una gran demanda.
+Los ATS o Sistemas de seguimiento de solicitantes son otra de las herramientas con las que debe trabajar el Reclutador IT, ya que el 90% de las grandes empresas y el 68% de las PYMEs las utilizan. Esta categoría es la más grande de software de reclutamiento y en el 2018 experimentó una gran cantidad de migración entre las diversas ATS.
+Problemática
 
-### `npm test`
+Los procesos de reclutamiento son un área de oportunidad aún no explotada, lo cual no favorece al cubrir puestos de manera óptima, generando incertidumbre en los aspirantes y frustración en los reclutadores, provocando que los aspirantes busquen otras opciones y  los reclutadores seleccionen a aspirantes no adecuados para las vacantes solicitadas.
+Puntualmente nos enfocaremos en los siguientes puntos:
+Reducir tiempo en el proceso de selección
+Filtrando a los aspirantes de acuerdo a sus habilidades y conocimientos.
+Optimizar la toma de decisiones. 
+Reducir la cantidad de entrevistas técnicas
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+De modo que sea mas detallado el puesto y sea cubierto lo antes posible de la mejor manera, por medio de una Webapp interactiva que conecte a postulante y reclutador, proporcionando al reclutador las herramientas para evaluar a los aspirantes mediante test que le permiten visualizar los resultados ayudándole a filtrar los aspirantes y tener una mejor toma de decisiones.
 
-### `npm run build`
+Descripción del producto
+Astra Talent ofrece la posibilidad de evaluar diversos conocimientos entre ellos el IT, codeo y lógica, por medio de una aplicación web, (webapp) que facilitará al reclutador sin conocimiento técnico información completa que le ayudará a tomar decisiones sobre qué postulantes elegir para continuar con el proceso de reclutamiento. El sitio cuenta con dos usuarios que son el “postulante” y el “reclutador”; ambos cuentan con su propia interfaz y les permitirá generar comunicación entre sí  al reclutador por medio de correo electrónico o llamada telefónica, para que una vez teniendo los resultados de las evaluaciones y la decisión tomada, le sea comunicado de inmediato al postulante. Esto disminuirá tanto el tiempo requerido para cubrir la vacante como el costo, previniendo rotación de personal al asegurarse de contratar al postulante idóneo.
+Definición de los usuarios
+Reclutador:
+Personal de Recursos Humanos y personal técnico seleccionados por la empresa.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Postulante:
+Personas previamente seleccionadas por el reclutador y filtradas por una previa entrevista telefónica.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+¿En qué se distingue de otras soluciones si es que las hay?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Permite la comunicación del reclutador hacia el postulante, la información que recibe el reclutador es mediante estadísticas, proporcionado evidencia de conocimientos comprobables y el postulante tiene oportunidad de proporcionar feedback del proceso . 
 
-### `npm run eject`
+Tecnologías utilizadas
+JavaScript
+ React 
+ CSS
+ MongoDB
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Interfaz de Reclutador:
+El reclutador ingresa por medio de un nickname y contraseña, previamente definidos.
+A continuación puede registrar información de postulante generando un perfil.
+Puede evaluar al candidato a través del envío de el o los tests ( que están prediseñados que ofrece la plataforma) al email de postulante previamente registrado. 
+Posteriormente, los resultados del o los tests aparecerán en la cuenta del reclutador ordenados de forma descendente.
+Tiene la posibilidad de filtrar los candidatos por prioridad en resultados según cada examen
+Al seleccionar un postulante en específico puede acceder a información más detallada de las evaluaciones.
+Es posible seleccionar uno o más candidatos como favoritos
+El reclutador puede tener comunicación con el postulante mediante un correo automático o seleccionar la opción de llamarlo.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Próxima iteración:
+El reclutador tiene la posibilidad de confeccionar su propio test, con preguntas, respuestas y puntajes específicos 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Interfaz de Postulante:
+El postulante puede acceder a la interfaz, ingresando con su correo electrónico.
+Posteriormente, podrá visualizar su avance según los test que hayan sido habilitados.
+El postulante tiene la opción de iniciar el test o cerrar sesion y volver después.
+Los test son consecutivos pero tiene la opción el postulante de una vez finalizado el test actual, cerrar sesion y volver después para continuar con el próximo test.
+Una vez finalizadas las evaluaciones, el postulante podrá redactar un feedback sobre su experiencias en el proceso y utilizarlo como mejora continua.
