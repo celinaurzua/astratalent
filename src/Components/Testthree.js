@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Timer from '../Components/Timer/Timer'
 import Header from './Header';
+import Footer from './Footer';
 
 
 class Testthree extends Component {
@@ -14,6 +15,7 @@ class Testthree extends Component {
           <Link to="testfeedback">
           <button>FINISH</button>
           </Link>
+          <Footer/>
       </div>
     );
   }
