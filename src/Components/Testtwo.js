@@ -3,12 +3,17 @@ import { Link } from 'react-router-dom';
 
 
 class Testtwo extends Component {
+
+  AlertStartTest() {
+    alert("XXXXX") 
+   }
+
   render() {
     return (
       <div>
           <p>Test Teórico</p>
           <Link to="testthree">
-          <button>START TEST 3</button>
+          <button onClick={() => this.AlertStartTest()}>START TEST 3</button>
           </Link>
       </div>
     );
