@@ -8,7 +8,7 @@ import Testtwo from './Components/Testtwo'
 import Testthree from './Components/Testthree'
 import Testfeedback from './Components/Testfeedback'
 import Testbye from './Components/Testbye'
-import Loginrh from './Components/Loginrh'
+import Loginrh from './Components/LoginHR'
 import Rh from './Components/Dashboardrh'
 import Statistics from './Components/Dashboardstatistics'
 
