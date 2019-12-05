@@ -6,9 +6,18 @@ import Footer from './Footer';
 
 
 class Testtwo extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible:false,
+    }
+  }
 
-  AlertStartTest() {
-    alert("XXXXX") 
+  AlertStartTest=()=> {
+    alert("XXXXX")
+    this.setState({
+      visible:true,
+    })
    }
 
   render() {
@@ -16,9 +25,10 @@ class Testtwo extends Component {
       <div>
         <Header/>
           <p>Test Teórico</p>
-          <Timer/>
+          <button onClick={() => this.AlertStartTest()}>Iniciar Test</button>
+          <Timer visible={this.state.visible} />
           <Link to="testthree">
-          <button onClick={() => this.AlertStartTest()}>START TEST 3</button>
+          <button>START TEST 3</button>
           </Link>
           <Footer/>
       </div>
