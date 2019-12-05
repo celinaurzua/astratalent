@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Testone extends Component {
   render() {
     return (
-      <div className="cointenerContact">
+      <div>
           <p>Test de Lógica</p>
           <Link to="testtwo">
           <button>START TEST 2</button>
