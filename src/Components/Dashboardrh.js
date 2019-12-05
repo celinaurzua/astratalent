@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 
 class Dashboardrh extends Component {
@@ -6,7 +7,9 @@ class Dashboardrh extends Component {
     return (
       <div>
           <p>Dashboard RH</p>
+          <Link to="statistics">
           <button>Dashboard Statistics</button>
+          </Link>
       </div>
     );
   }
