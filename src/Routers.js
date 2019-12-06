@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
+import {ProtectedRoute} from './ProtectedRoute'
 import Loginapplicant from './Components/Loginapplicant'
 import Testwelcome from './Components/Testwelcome'
 import Testone from './Components/Testone'
@@ -16,14 +16,14 @@ const Routers = () => (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
    <Switch>/>
         <Route exact path="/" component={Loginapplicant}/>
-        <Route exact path="/welcome" component={Testwelcome}/>
-        <Route exact path="/testone" component={Testone}/>
-        <Route exact path="/testtwo" component={Testtwo}/>
-        <Route exact path="/testthree" component={Testthree}/>
-        <Route exact path="/testfeedback" component={Testfeedback}/>
+        <ProtectedRoute exact path="/welcome" component={Testwelcome}/>
+        <ProtectedRoute exact path="/testone" component={Testone}/>
+        <ProtectedRoute exact path="/testtwo" component={Testtwo}/>
+        <ProtectedRoute exact path="/testthree" component={Testthree}/>
+        <ProtectedRoute exact path="/testfeedback" component={Testfeedback}/>
         <Route exact path="/login-rh" component={Loginrh}/>
-        <Route exact path="/rh" component={Rh}/>
-        <Route exact path="/statistics" component={Statistics}/>
+        <ProtectedRoute exact path="/rh" component={Rh}/>
+        <ProtectedRoute exact path="/statistics" component={Statistics}/>
     </Switch>
     </BrowserRouter>
 )

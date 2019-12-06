@@ -14,38 +14,28 @@ class Loginapplicant extends Component {
   };
 
   addEmail = event => {
+    const value= event.target.value
     this.setState({
       emailInput: event.target.value
     });
+    localStorage.setItem("email", value);
   };
 
-  checkEmail = () => {
-    console.log(this.state.arr, "=> state");
-    this.state.arr.filter(element => {
-      console.log(element.email, "=> element");
-      //console.log(this.state.emailInput, " => state")
-      if (element.email === this.state.emailInput) {
-        console.log("se encontro");
-        //withRouter de react-router-dom
-        //location.push
-      } else {
-        console.log("error");
-      }
-    });
-  };
   componentDidMount() {
     let arr = [];
     Data.data.map(element => {
       element.candidates.map(doc => {
         console.log(doc);
         arr.push(doc);
+        localStorage.setItem("array", JSON.stringify(arr) );
       });
     });
+    
     this.setState({ arr });
   }
 
   render() {
-    console.log(this.state.arr);
+    console.log(localStorage);
     const { emailInput } = this.state;
     return (
       <div className="cointenerLogIn">
@@ -60,7 +50,7 @@ class Loginapplicant extends Component {
         ></input>
         <br/>
         <Link to="/welcome">
-          <button className="buttonLoging" onClick={this.checkEmail}>Log in</button>
+          <button className="buttonLoging">Log in</button>
         </Link>
         </div>
         <Footer />
