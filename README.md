@@ -39,6 +39,33 @@ Puntualmente nos enfocaremos en los siguientes puntos:
 
 De modo que sea mas detallado el puesto y sea cubierto lo antes posible de la mejor manera, por medio de una Webapp interactiva que conecte a postulante y reclutador, proporcionando al reclutador las herramientas para evaluar a los aspirantes mediante test que le permiten visualizar los resultados ayudándole a filtrar los aspirantes y tener una mejor toma de decisiones.
 
+## Proceso Creativo
+![Creativo1](https://i.ibb.co/Db4pmn0/Whats-App-Image-2019-12-04-at-2-52-53-PM.jpg)
+![Creativo2](https://i.ibb.co/HNmdt6j/Whats-App-Image-2019-12-04-at-2-52-53-PM-1.jpg)
+![Creativo3](https://i.ibb.co/41yRKwD/Whats-App-Image-2019-12-04-at-2-52-53-PM-3.jpg)
+
+## Prototipo de baja fidelidad
+![PrototipoBaja4](https://i.ibb.co/dKmn5Bb/Whats-App-Image-2019-12-04-at-2-52-53-PM-5.jpg)
+![PrototipoBaja5](https://i.ibb.co/DKtjLyt/Whats-App-Image-2019-12-04-at-2-52-53-PM-6.jpg)
+
+## Prototipo de Alta Fidelidad
+
+![PrototipoAlta1](https://i.ibb.co/L137qT2/Astra1.jpg)
+![PrototipoAlta2](https://i.ibb.co/CWr43NZ/Astra2.jpg)
+![PrototipoAlta3](https://i.ibb.co/FJKDvb9/Astra3.jpg)
+![PrototipoAlta4](https://i.ibb.co/9s0R9FN/Astra4.jpg)
+![PrototipoAlta5](https://i.ibb.co/D5QzM9y/Astra5.jpg)
+![PrototipoAlta6](https://i.ibb.co/44PDgQZ/Astra6.jpg)
+![PrototipoAlta1](https://i.ibb.co/pwpkYZF/Astra7.jpg)
+![PrototipoAlta1](https://i.ibb.co/Rhp89xW/Astra8.jpg)
+![PrototipoAlta1](https://i.ibb.co/28rGVkS/Astra9.jpg)
+![PrototipoAlta1](https://i.ibb.co/bvKPDRv/Astra10.jpg)
+
+
+
+## Tablero Canva
+https://trello.com/b/b4S1Sm04/talent-fest
+
 ## Descripción del producto
 
 Astra Talent ofrece la posibilidad de evaluar diversos conocimientos entre ellos el IT, codeo y lógica, por medio de una aplicación web, (webapp) que facilitará al reclutador sin conocimiento técnico información completa que le ayudará a tomar decisiones sobre qué postulantes elegir para continuar con el proceso de reclutamiento. El sitio cuenta con dos usuarios que son el “postulante” y el “reclutador”; ambos cuentan con su propia interfaz y les permitirá generar comunicación entre sí  al reclutador por medio de correo electrónico o llamada telefónica, para que una vez teniendo los resultados de las evaluaciones y la decisión tomada, le sea comunicado de inmediato al postulante. Esto disminuirá tanto el tiempo requerido para cubrir la vacante como el costo, previniendo rotación de personal al asegurarse de contratar al postulante idóneo.
