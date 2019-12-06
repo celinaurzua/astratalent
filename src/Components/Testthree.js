@@ -44,7 +44,7 @@ class Testthree extends Component {
                 Data.data.map(element =>
                   element.codeTest.map((el, id) => (
                     <div>
-                      <p>{el.code}</p>
+                      <p className="instructionTextCode">{el.code}</p>
                       <ReactAce
                         mode="javascript"
                         theme="solarized_dark"

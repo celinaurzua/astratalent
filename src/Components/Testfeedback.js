@@ -70,12 +70,12 @@ class Testfeedback extends Component {
           Dear Candidate, thank you for participating in our test process. We strive to ensure our candidates have an awesome experience, so we'd love to hear your thoughts on the test you attended.Your feedback is confidential and will only be used to improve internal processes.
           Thanks for your input :) 
           </p>
-          <p>
+          <p className="instructionText">
             Many thanks for your application! You'll receive news about the
             following steps in your procces very soon. Stay tuned
           </p>
           <Link to="/">
-            <button className="buttonGreen" >Log out</button>
+            <button className="buttonGreen">Finish</button>
           </Link>
         </div>
         <Footer />
