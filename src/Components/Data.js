@@ -1,19 +1,27 @@
 const Data ={
     data:[{
-  rh: [
-    {
-      email: [
-        "isela.carrillo@gmail.com",
-        "karla.alvarez@gmail.com",
-        "paulina.montoya@gmail.com",
-        "celina.urzua@gmail.com"
-      ]
-    }
+  passwordHR: [
+        "QWERTY",
+        "ASDFGH",
+        "ZXCVBN",
+        "123456" 
   ],
   candidates: [
     {
       email: "isela.carrillo@gmail.com",
       name: "Isela Carrillo"
+    },
+    {
+      email: "celina@nmail.com",
+      name: "celina"
+    },
+    {
+      email: "celina@nmail.com",
+      name: "celina"
+    },
+    {
+      email: "celina@nmail.com",
+      name: "celina"
     }
   ],
   logicalTest: [
