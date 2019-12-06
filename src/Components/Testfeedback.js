@@ -5,6 +5,19 @@ import Footer from "./Footer";
 import menuFeedback from "../Images/menu-cuatro.png";
 
 class Testfeedback extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible: false
+    };
+  }
+
+  goodbye = () => {
+    this.setState({
+      visible: true
+    });
+  };
+
   render() {
     return (
       <div>
@@ -13,7 +26,11 @@ class Testfeedback extends Component {
           <p className="title">Feedback</p>
           <img src={menuFeedback} alt="" />
 
-          <div>
+          <div
+            style={
+              this.state.visible ? { display: "none" } : { display: "block" }
+            }
+          >
             <p>
               1. Do you think that the content of the tests correspond to the
               position you are applying for?
@@ -30,21 +47,36 @@ class Testfeedback extends Component {
               <input value="Totally disagree" type="radio" name="feedback" />
               <label>Totally disagree</label>
             </div>
+
+            <p>
+              2. Is there anything you would like to highlight or improve in
+              this process?
+            </p>
+            <div>
+              <input
+                style={{ width: "30rem", height: "15rem" }}
+                type="textarea"
+              />
+            </div>
+
+            <button onClick={() => this.goodbye()}>SEND FEEDBACK</button>
           </div>
+        </div>
+        <div
+          className="cointenerTest"
+          style={
+            this.state.visible ? { display: "block" } : { display: "none" }
+          }
+        >
           <p>
-            2. Is there anything you would like to highlight or improve in this
-            process?
+            Many thanks for your application! You'll receive news about the
+            following steps in your procces very soon. Stay tuned
           </p>
-          <div>
-            <input
-              style={{ width: "30rem", height: "15rem" }}
-              type="textarea"
-            />
-          </div>
-          <Link to="testbye">
-            <button>SEND FEEDBACK</button>
+          <Link to="/">
+            <button>Log out</button>
           </Link>
         </div>
+
         <Footer />
       </div>
     );
