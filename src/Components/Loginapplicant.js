@@ -8,7 +8,7 @@ class Loginapplicant extends Component {
   render() {
     return (
       <div className="cointenerContact">
-          <p>Log in Applicant</p>
+          <p>Log in Candidate</p>
           <Link to="/welcome">
           <button className="buttonGreen">Log in</button>
           </Link>

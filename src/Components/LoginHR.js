@@ -10,11 +10,6 @@ export default class LoginHR extends React.Component {
     };
   }
   
-  
-
-
-
-
   render() {
     return this.state.emailCandidates.map((infoCandidates, index) => 
       <center key={index}>

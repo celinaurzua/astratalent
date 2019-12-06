@@ -7,10 +7,10 @@ class Testbye extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <p>Congratulations! You have finished this test section.</p>{" "}
-        <p>Wait for communication for the next part of the process.</p>
-        <Link to="/">
+        <Header/>
+          <p>Many thanks for your application! You'll receive news about the following steps in your procces very soon. Stay tuned</p>
+          <Link to="/">
+
           <button>Log out</button>
         </Link>
         <Footer />
