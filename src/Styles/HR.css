@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900&display=swap");
+
+
+.containerForm{
+    font-family: 'Roboto Slab';
+    padding: 70px;
+    text-align: center;
+    background-color: #F3F2EA;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 25%;
+    height: 15%;
+}
+
+.containerTalent{
+    font-family: 'Roboto Slab';
+    font-size: 17px;
+    padding: 70px;
+    text-align: center;
+    background-color: #F3F2EA;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 25%;
+    height: 180px;
+}
+
+.order{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.test{
+    width: 35%;
+}
+
+.orderButtons{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto auto;
+    width: 100%;
+}
+
+.title{
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+    color: #95006D;
+    text-align: center;
+}
+
+.buttonAdd{
+    background: #C4D600;
+    padding: 3px;
+    width: 16%;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #95006D;
+    font-weight: 800;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 0;
+}
+
+.inputsForm{
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.fa-star{
+    color: #95006D;
+    padding: 15px;
+    background-color: #C4D600;
+    border-radius: 5px;
+}
+
+.buttonGreen{
+    background: #C4D600;
+    padding: 3px;
+    width: 16%;
+    font-size: 20px;
+    color: #95006D;
+    font-weight: 800;
+    border-radius: 5px;
+    display: block;
+}
+
+.buttonsStadistics {
+    background: #C4D600;
+    padding: 13px;
+    width: 100%;
+    font-size: 20px;
+    color: #95006D;
+    font-weight: 800;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.testRed{
+    background: #FF3333;
+    font-weight: 800;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 115px;
+}
+
+.testYellow{
+    background: #F2F20C;
+    font-weight: 800;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 115px;
+}
+
+.testGreen{
+    background: #4A9720;
+    font-weight: 800;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 115px;
+}
+                                                  
