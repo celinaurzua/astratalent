@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Timer from '../Components/Timer/Timer'
 import Header from './Header';
 import Footer from './Footer';
+import menuTree from '../Images/menu-tres.png';
 
 
 class Testthree extends Component {
@@ -20,17 +21,25 @@ class Testthree extends Component {
     })
    }
 
-  render() {
+   render() {
     return (
       <div>
-        <Header/>
-          <p>Test de Código</p>
+        <Header />
+        <div className="cointenerTest">
+          <p className="title">Test de código</p>
+          <img src={menuTree} alt="" />
+          <div>
+            <p></p>
           <button onClick={() => this.AlertStartTest()}>Iniciar Test</button>
           <Timer visible={this.state.visible} />
-          <Link to="testfeedback">
-          <button>}>FINISH</button>
-          </Link>
-          <Footer/>
+
+            <Link to="testfeedback">
+              <button>FINISH</button>
+            </Link>
+          </div>
+        </div>
+        <Footer />
+
       </div>
     );
   }
