@@ -26,7 +26,6 @@ class Testone extends Component {
     });
   };
 
-
   render() {
     console.log(Data.data)
     return (
@@ -37,6 +36,7 @@ class Testone extends Component {
           <img src={menuTestOne} alt="" />
 
           <div>
+
             <div style={this.state.visible ? { visibility: "hidden" } : {}}>
               <p>DESCRIPCION</p>
               <button className="buttonGreen" onClick={() => this.AlertStartTest()}>Iniciar Test</button>
@@ -66,8 +66,6 @@ class Testone extends Component {
                 <button className="buttonGreen">Finish Test</button>
               </Link>
             </div>
-
-
 
           </div>
         </div>
