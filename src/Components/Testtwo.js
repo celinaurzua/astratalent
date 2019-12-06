@@ -31,7 +31,7 @@ class Testtwo extends Component {
       <div>
         <Header />
         <div className="cointenerTest">
-          <p className="title">Theoretical Test</p>
+          <p className="title">Technical Test</p>
           <img src={menuTestTwo} alt="" />
           <div>
 

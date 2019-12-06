@@ -29,7 +29,7 @@ class Testthree extends Component {
       <div>
         <Header />
         <div className="cointenerTest">
-          <p className="title">Test de código</p>
+          <p className="title">Code Test</p>
           <img src={menuTree} alt="" />
           <div>
 

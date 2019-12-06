@@ -43,16 +43,16 @@ class Dashboardrh extends Component {
           </div>
           <div className="order">
             <div className="test">
-              <p className="testGreen">1</p>
-              <p>Test 1</p>
+              <p className="testGreen">Test 1</p>
+              <p>Logic</p>
             </div>
             <div className="test">
-              <p className="testGreen">2</p>
-              <p>Test 2</p>
+              <p className="testGreen">Test 2</p>
+              <p>Technical</p>
             </div>
             <div className="test">
-              <p className="testGreen">3</p>
-              <p>Test 3</p>
+              <p className="testGreen">Test 3</p>
+              <p>Code</p>
             </div>
           </div>
           <div className="orderButtons">
@@ -73,16 +73,16 @@ class Dashboardrh extends Component {
           </div>
           <div className="order">
             <div className="test">
-              <p className="testRed">1</p>
-              <p>Test 1</p>
+              <p className="testRed">Test 1</p>
+              <p>Logic</p>
             </div>
             <div className="test">
-              <p className="testGreen">2</p>
-              <p>Test 2</p>
+              <p className="testGreen">Test 2</p>
+              <p>Technical</p>
             </div>
             <div className="test">
-              <p className="testGreen">3</p>
-              <p>Test 3</p>
+              <p className="testGreen">Test 3</p>
+              <p>Code</p>
             </div>
           </div>
           <div className="orderButtons">
@@ -103,16 +103,16 @@ class Dashboardrh extends Component {
           </div>
           <div className="order">
             <div className="test">
-              <p className="testYellow">1</p>
-              <p>Test 1</p>
+              <p className="testYellow">Test 1</p>
+              <p>Logic</p>
             </div>
             <div className="test">
-              <p className="testYellow">2</p>
-              <p>Test 2</p>
+              <p className="testYellow">Test 2</p>
+              <p>Technical</p>
             </div>
             <div className="test">
-              <p className="testRed">3</p>
-              <p>Test 3</p>
+              <p className="testRed">Test 3</p>
+              <p>Code</p>
             </div>
           </div>
           <div className="orderButtons">
