@@ -8,10 +8,6 @@ import menuWecome from '../Images/menu-welcome.png';
 
 class Testwelcome extends Component {
 
-  AlertStartTest() {
-    alert("You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. You can answer this test only once. Are you sure you want to leave the test now?") 
-   }
-
   render() {
     return (
       <div>
