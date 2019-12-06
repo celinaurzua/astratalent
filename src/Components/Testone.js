@@ -19,7 +19,7 @@ class Testone extends Component {
 
   AlertStartTest = () => {
     alert(
-      "You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. You can answer this test only once. Are you sure you want to leave the test now?"
+      "You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. Are you sure you want to leave the test now?"
     );
     this.setState({
       visible: true
@@ -37,7 +37,7 @@ class Testone extends Component {
           <div>
 
             <div style={this.state.visible ? { visibility: "hidden" } : {}}>
-              <p>DESCRIPCION</p>
+              <p>Make sure you have a good internet connection and be in a quiet place to answer the test.You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. Happy coding :)</p>
               <button className="buttonGreen" onClick={() => this.AlertStartTest()}>Start Test</button>
             </div>
 
@@ -71,6 +71,6 @@ class Testone extends Component {
       </div>
     );
   }
-}
+}  
 
 export default Testone;

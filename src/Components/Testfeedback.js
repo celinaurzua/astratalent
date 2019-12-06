@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import menuFeedback from "../Images/menu-cuatro.png";
-
 class Testfeedback extends Component {
   constructor(props) {
     super(props);
@@ -11,13 +10,11 @@ class Testfeedback extends Component {
       visible: false
     };
   }
-
   goodbye = () => {
     this.setState({
       visible: true
     });
   };
-
   render() {
     return (
       <div>
@@ -46,7 +43,6 @@ class Testfeedback extends Component {
               <input value="Totally disagree" type="radio" name="feedback" />
               <label>Totally disagree</label>
             </div>
-
             <p>
               2. Is there anything you would like to highlight or improve in
               this process?
@@ -57,7 +53,6 @@ class Testfeedback extends Component {
                 type="textarea"
               />
             </div>
-
             <button onClick={() => this.goodbye()}>SEND FEEDBACK</button>
           </div>
         </div>
@@ -68,6 +63,10 @@ class Testfeedback extends Component {
           }
         >
           <p>
+          Dear Candidate, thank you for participating in our test process. We strive to ensure our candidates have an awesome experience, so we'd love to hear your thoughts on the test you attended.Your feedback is confidential and will only be used to improve internal processes.
+          Thanks for your input :) 
+          </p>
+          <p>
             Many thanks for your application! You'll receive news about the
             following steps in your procces very soon. Stay tuned
           </p>
@@ -75,11 +74,9 @@ class Testfeedback extends Component {
             <button>Log out</button>
           </Link>
         </div>
-
         <Footer />
       </div>
     );
   }
 }
-
 export default Testfeedback;

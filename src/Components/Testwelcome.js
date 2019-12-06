@@ -16,7 +16,7 @@ class Testwelcome extends Component {
           <p className="title">Welcome</p>
           <img src={menuWecome} alt="" />
           <div>
-          <p> INSTRUCTIONS </p>
+          <p> Make sure you have a good internet connection and be in a quiet place to answer the test.You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. Happy coding :) </p>
             <Link to="testone">
               <button className="buttonGreen">Start</button>
 
