@@ -5,6 +5,19 @@ import Footer from "./Footer";
 import menuFeedback from "../Images/menu-cuatro.png";
 
 class Testfeedback extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible: false
+    };
+  }
+
+  goodbye = () => {
+    this.setState({
+      visible: true
+    });
+  };
+
   render() {
     return (
       <div>
@@ -12,40 +25,57 @@ class Testfeedback extends Component {
         <div className="cointenerTest">
           <p className="title">Feedback</p>
           <img src={menuFeedback} alt="" />
-          <div clasName=".cointenerTest">
-            <div className="textQuestions">
-              <p>
-                1. Do you think that the content of the tests correspond to the
-                position you are applying for?
+          <div
+            style={
+              this.state.visible ? { display: "none" } : { display: "block" }
+            }
+          >
+            <p>
+              1. Do you think that the content of the tests correspond to the
+              position you are applying for?
             </p>
-              <div>
-                <input value="Totally agree" type="radio" name="feedback" />
-                <label>Totally agree</label>
-              </div>
-              <div>
-                <input value="So so" type="radio" name="feedback" />
-                <label>So so</label>
-              </div>
-              <div>
-                <input value="Totally disagree" type="radio" name="feedback" />
-                <label>Totally disagree</label>
-              </div>
+            <div>
+              <input value="Totally agree" type="radio" name="feedback" />
+              <label>Totally agree</label>
+            </div>
+            <div>
+              <input value="So so" type="radio" name="feedback" />
+              <label>So so</label>
+            </div>
+            <div>
+              <input value="Totally disagree" type="radio" name="feedback" />
+              <label>Totally disagree</label>
+            </div>
 
-              <p>
-                2. Is there anything you would like to highlight or improve in this
-                process?
-          </p>
-
+            <p>
+              2. Is there anything you would like to highlight or improve in
+              this process?
+            </p>
+            <div>
               <input
                 style={{ width: "30rem", height: "15rem" }}
                 type="textarea"
               />
             </div>
+
+            <button onClick={() => this.goodbye()}>SEND FEEDBACK</button>
           </div>
-          <Link to="testbye">
-            <button className="buttonGreen">SEND FEEDBACK</button>
+        </div>
+        <div
+          className="cointenerTest"
+          style={
+            this.state.visible ? { display: "block" } : { display: "none" }
+          }
+        >
+          <p>
+            Many thanks for your application! You'll receive news about the
+            following steps in your procces very soon. Stay tuned
+          </p>
+          <Link to="/">
+            <button>Log out</button>
           </Link>
         </div>
+
         <Footer />
       </div>
     );

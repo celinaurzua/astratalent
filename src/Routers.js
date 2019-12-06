@@ -7,7 +7,6 @@ import Testone from './Components/Testone'
 import Testtwo from './Components/Testtwo'
 import Testthree from './Components/Testthree'
 import Testfeedback from './Components/Testfeedback'
-import Testbye from './Components/Testbye'
 import Loginrh from './Components/LoginHR'
 import Rh from './Components/Dashboardrh'
 import Statistics from './Components/Dashboardstatistics'
@@ -22,7 +21,6 @@ const Routers = () => (
         <Route exact path="/testtwo" component={Testtwo}/>
         <Route exact path="/testthree" component={Testthree}/>
         <Route exact path="/testfeedback" component={Testfeedback}/>
-        <Route exact path="/testbye" component={Testbye}/>
         <Route exact path="/login-rh" component={Loginrh}/>
         <Route exact path="/rh" component={Rh}/>
         <Route exact path="/statistics" component={Statistics}/>
