@@ -21,7 +21,7 @@ class Testwelcome extends Component {
 
             <Link to="testone">
               
-              <button className="buttonGreen" onClick={() => this.AlertStartTest()}>START TEST 1</button>
+              <button className="buttonGreen" >START TEST 1</button>
             </Link>
           </div>
         </div>
