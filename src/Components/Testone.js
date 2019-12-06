@@ -34,7 +34,6 @@ class Testone extends Component {
         <div className="cointenerTest">
           <p className="title">Test de lógica</p>
           <img src={menuTestOne} alt="" />
-
           <div>
 
             <div style={this.state.visible ? { visibility: "hidden" } : {}}>
@@ -63,10 +62,9 @@ class Testone extends Component {
                   </div>
                 ))}
               <Link to="testtwo">
-                <button className="buttonGreen">Finish Test</button>
+                <button className="buttonGreen">Finish</button>
               </Link>
             </div>
-
           </div>
         </div>
         <Footer />
