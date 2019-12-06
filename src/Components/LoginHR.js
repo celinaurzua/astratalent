@@ -10,24 +10,13 @@ export default class LoginHR extends React.Component {
   };
 
   addPassword = event => {
+    const value= event.target.value
     this.setState({
       passwordInput: event.target.value
     });
+    localStorage.setItem("password", value);
   };
 
-  checkPassword = () => {
-    console.log(this.state.password, "=> state");
-    this.state.password.map(element => {
-      console.log(element, "=> element");
-      if (element === this.state.passwordInput) {
-        console.log("se encontro");
-        //withRouter de react-router-dom
-        //location.push
-      } else {
-        console.log("error");
-      }
-    });
-  };
   componentDidMount() {
     let password = [];
     Data.data.map(element => {
@@ -36,6 +25,7 @@ export default class LoginHR extends React.Component {
         password.push(doc);
       });
       this.setState({ password });
+      localStorage.setItem("arrayRH", JSON.stringify(password) );
     });
   }
 
@@ -51,7 +41,7 @@ export default class LoginHR extends React.Component {
           placeholder="Please add your email"
           onChange={this.addPassword}
         ></input>
-        <Link to="/welcome">
+        <Link to="/rh">
           <button onClick={this.checkPassword}>Log in</button>
         </Link>
         <Footer />
