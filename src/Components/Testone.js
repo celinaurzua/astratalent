@@ -41,15 +41,15 @@ class Testone extends Component {
              <p key={id}>{el.question} </p>
              <div>
              <input key={id} value={el.a[1]} type= "radio" name={el.question[0]}/>
-             <label key={id}>{el.b[0]}</label>
+             <label key={id}>{el.a[0]}</label>
              </div>
              <div>
              <input key={id} value={el.b[1]} type= "radio" name={el.question[0]}/>
-             <label key={id}>{el.c[0]}</label>
+             <label key={id}>{el.b[0]}</label>
              </div>
              <div>
              <input key={id} value={el.c[1]} type= "radio" name={el.question[0]}/>
-             <label key={id}>{el.d[0]}</label>
+             <label key={id}>{el.c[0]}</label>
              </div>
              </div>
              ))}
