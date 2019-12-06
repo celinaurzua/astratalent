@@ -22,6 +22,7 @@ class Testone extends Component {
       visible: true
     });
   };
+  
   render() {
     console.log(Data.data)
     return (
