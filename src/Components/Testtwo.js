@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Timer from '../Components/Timer/Timer'
 import Header from './Header';
 import Footer from './Footer';
+import menuTestTwo from '../Images/menu-dos.png';
 
 
 class Testtwo extends Component {
@@ -11,16 +12,21 @@ class Testtwo extends Component {
     alert("XXXXX") 
    }
 
-  render() {
+   render() {
     return (
       <div>
-        <Header/>
-          <p>Test Teórico</p>
-          <Timer/>
-          <Link to="testthree">
-          <button onClick={() => this.AlertStartTest()}>START TEST 3</button>
-          </Link>
-          <Footer/>
+        <Header />
+        <div className="cointenerTest">
+          <p className="title">Test de técnico</p>
+          <img src={menuTestTwo} alt="" />
+          <div>
+            <p></p>
+            <Link to="testthree">
+              <button onClick={() => this.AlertStartTest()}>START TEST 2</button>
+            </Link>
+          </div>
+        </div>
+        <Footer />
       </div>
     );
   }
