@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 
 import LoginCandidate from './Components/LoginCandidate'
@@ -15,7 +15,7 @@ import {ProtectedRoute} from './ProtectedRoute'
 import {ProtectedRH} from './ProtectedRH'
 
 const Routers = () => (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
 
    <Switch>
         <Route exact path="/" component={LoginCandidate}/>
@@ -31,7 +31,7 @@ const Routers = () => (
         <ProtectedRH exact path="/statistics" component={DashboardStatistics}/>
 
     </Switch>
-    </BrowserRouter>
+    </HashRouter>
     
 )
 
