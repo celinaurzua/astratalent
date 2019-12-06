@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import '../Styles/logInApplicant.css';
 
 
 class Loginapplicant extends Component {
@@ -9,7 +10,7 @@ class Loginapplicant extends Component {
       <div className="cointenerContact">
           <p>Log in Applicant</p>
           <Link to="/welcome">
-          <button>Log in</button>
+          <button className="buttonGreen">Log in</button>
           </Link>
           <Footer/>
       </div>
