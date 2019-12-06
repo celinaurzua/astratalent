@@ -41,5 +41,30 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+
   <script src="https://kit.fontawesome.com/f4b836b075.js"></script>
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCU2nQ_GOQa2nQ2twvKtLweOak3c8RDXCY",
+        authDomain: "astra-talent-556e8.firebaseapp.com",
+        databaseURL: "https://astra-talent-556e8.firebaseio.com",
+        projectId: "astra-talent-556e8",
+        storageBucket: "astra-talent-556e8.appspot.com",
+        messagingSenderId: "741274177625",
+        appId: "1:741274177625:web:d9f5df3202a012f967e148"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="/__/firebase/6.2.0/firebase-app.js"></script>
+  <script src="/__/firebase/6.2.0/firebase-firestore.js"></script>
+
+  
+
 </html>
