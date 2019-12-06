@@ -1,4 +1,4 @@
-import React, { Component, Checkbox } from "react";
+import React, { Component} from "react";
 import { Link } from "react-router-dom";
 import Timer from "../Components/Timer/Timer";
 import Header from "./Header";
@@ -22,7 +22,7 @@ class Testone extends Component {
       visible: true
     });
   };
-  
+
   render() {
     console.log(Data.data)
     return (
