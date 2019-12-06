@@ -1,20 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900&display=swap");
 
-.cointenerHeader{
-    background: #C4D600;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-gap: 0px;
-    justify-content: center;
+.cointenerHeader {
+  background: #c4d600;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 0px;
+  justify-content: center;
 }
-.appName{
-    font-family: 'Roboto Slab';
-    font-size: 30px;
-    color: #95006D;
-    margin-left:40px ;
+.appName {
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  color: #95006d;
+  margin-left: 40px;
 }
-.buttonLogOut{
-    display: grid;
-    justify-items: end;
-
+.fa-times {
+  color: #95006d;
+  margin: 30px 30px 0 0;
+}
+.buttonLogOut {
+  display: grid;
+  justify-items: end;
 }

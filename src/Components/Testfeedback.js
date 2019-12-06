@@ -25,7 +25,6 @@ class Testfeedback extends Component {
         <div className="cointenerTest">
           <p className="title">Feedback</p>
           <img src={menuFeedback} alt="" />
-
           <div
             style={
               this.state.visible ? { display: "none" } : { display: "block" }

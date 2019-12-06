@@ -9,7 +9,7 @@ class Header extends Component {
       <div className="cointenerHeader">
           <p className="appName">Astra Talent</p>
           <Link to="">
-          <button className="buttonLogOut">X</button>
+          <a className="buttonLogOut"><i className="fas fa-times fa-2x"></i></a>
           </Link>
       </div>
     );

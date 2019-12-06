@@ -1,6 +1,17 @@
-.cointenerFooter{
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900&display=swap");
+
+
+.cointenerFooter {
     background: #EDEDED;
-    padding: 40px;
+    padding: 20px;
     bottom: 0;
     width: auto;
+    height: 100px;
+    text-align: center;
+    margin-top: 90px;
+}
+.footerTxt{
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    color: #95006d;
 }
