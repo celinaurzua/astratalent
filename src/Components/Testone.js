@@ -6,20 +6,32 @@ import Footer from './Footer';
 
 
 class Testone extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        visible:false,
+      }
+    }
 
-  AlertStartTest() {
-    alert("You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. You can answer this test only once. Are you sure you want to leave the test now?")
-  }
+  AlertStartTest=()=> {
+    alert("XXXXX")
+    this.setState({
+      visible:true,
+    })
+   }
+
   render() {
+    console.log(this.state.visible)
     return (
       <div className="cointenerContact">
         <Header/>
           <p>Test de Lógica</p>
-          <Timer/>
+          <button onClick={() => this.AlertStartTest()}>Iniciar Test</button>
+          <Timer visible={this.state.visible} />
           <Link to="testtwo">
-          <button onClick={() => this.AlertStartTest()}>START TEST 2</button>
+          <button >START TEST 2</button>
           </Link>
-          <Footer/>
+      <Footer/>
       </div>
     );
   }
