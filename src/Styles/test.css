@@ -13,6 +13,11 @@
     font-size: 30px;
     color: #95006D;
 }
+.instructionText{
+    margin: 0 auto;
+    width: 40%;
+    text-align: left;
+}
 .startTest{
     margin: 0 auto;
     width: 40%;
@@ -21,6 +26,7 @@
 .textQuestions{
     font-family: 'Roboto Slab';
     text-align: left;
+    
 }
 .buttonGreen{
     background: #C4D600;

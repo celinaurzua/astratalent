@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/HR.css";
+import Header from "./Header";
 
 class Dashboardrh extends Component {
   render() {
     return (
       <div>
-        <p className="title">Welcome user Alberto</p>
+        <Header />
+        <p className="title">Welcome!</p>
         <div className="containerForm">
-          <p>Add a new applicant</p>
+          <p className="nameApplicant">Add a new applicant</p>
           <p>Name</p>
           <input
             className="inputsForm"
@@ -29,7 +31,7 @@ class Dashboardrh extends Component {
           ></input>
           <p>Vacant</p>
           <select className="inputsForm" type="text">
-            <option value="block">Vacant level</option>
+            <option value="block">Possition level</option>
             <option value="Junior">Junior</option>
             <option value="Medium">Medium</option>
             <option value="Senior">Senior</option>
@@ -39,7 +41,7 @@ class Dashboardrh extends Component {
 
         <div className="containerTalent">
           <div>
-            <p>Julia Montiel</p>
+            <p className="nameApplicant">Julia Montiel</p>
           </div>
           <div className="order">
             <div className="test">

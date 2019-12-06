@@ -22,11 +22,14 @@ class Testfeedback extends Component {
         <div className="cointenerTest">
           <p className="title">Feedback</p>
           <img src={menuFeedback} alt="" />
-          <div
+
+          <div  
             style={
               this.state.visible ? { display: "none" } : { display: "block" }
             }
           >
+
+          <div className="instructionText" >  
             <p>
               1. Do you think that the content of the tests correspond to the
               position you are applying for?
@@ -53,7 +56,8 @@ class Testfeedback extends Component {
                 type="textarea"
               />
             </div>
-            <button onClick={() => this.goodbye()}>SEND FEEDBACK</button>
+            </div>  
+            <button className="buttonGreen" onClick={() => this.goodbye()}>SEND FEEDBACK</button>
           </div>
         </div>
         <div
@@ -62,7 +66,7 @@ class Testfeedback extends Component {
             this.state.visible ? { display: "block" } : { display: "none" }
           }
         >
-          <p>
+          <p className="instructionText">
           Dear Candidate, thank you for participating in our test process. We strive to ensure our candidates have an awesome experience, so we'd love to hear your thoughts on the test you attended.Your feedback is confidential and will only be used to improve internal processes.
           Thanks for your input :) 
           </p>
@@ -71,7 +75,7 @@ class Testfeedback extends Component {
             following steps in your procces very soon. Stay tuned
           </p>
           <Link to="/">
-            <button>Log out</button>
+            <button className="buttonGreen" >Log out</button>
           </Link>
         </div>
         <Footer />
