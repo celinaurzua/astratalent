@@ -32,7 +32,7 @@ class Testone extends Component {
       <div>
         <Header />
         <div className="cointenerTest">
-          <p className="title">Test de lógica</p>
+          <p className="title">Logic Test</p>
           <img src={menuTestOne} alt="" />
           <div>
 
