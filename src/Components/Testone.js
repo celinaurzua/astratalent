@@ -1,6 +1,6 @@
 import React, { Component} from "react";
 import { Link } from "react-router-dom";
-import Timer from "../Components/Timer/Timer";
+import Timer from "./Timer/Timer";
 import Header from "./Header";
 import Footer from "./Footer";
 import menuTestOne from "../Images/menu-uno.png";

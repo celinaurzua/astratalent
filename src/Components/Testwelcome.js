@@ -29,4 +29,4 @@ class Testwelcome extends Component {
   }
 }
 
-export default Testwelcome;
+export default Testwelcome;  
