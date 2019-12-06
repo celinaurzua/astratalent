@@ -35,7 +35,7 @@ class Testthree extends Component {
 
             <div style={this.state.visible ? { visibility: "hidden" } : {}}>
               <p></p>
-              <button className="buttonGreen" onClick={() => this.AlertStartTest()}>Iniciar Test</button>
+              <button className="buttonGreen" onClick={() => this.AlertStartTest()}>Start</button>
             </div>
 
             <div style={this.state.visible ? { visibility: "visible" } : {}} className="startTest">

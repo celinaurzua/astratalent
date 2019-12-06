@@ -37,7 +37,7 @@ class Testtwo extends Component {
 
             <div style={this.state.visible ? { visibility: "hidden" } : {}}>
               <p className="instructionText">Make sure you have a good internet connection and be in a quiet place to answer the test.You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. Happy coding :)</p>
-              <button className="buttonGreen" onClick={() => this.AlertStartTest()}>Start Test</button>
+              <button className="buttonGreen" onClick={() => this.AlertStartTest()}>Start</button>
             </div>
 
             <div style={this.state.visible ? { visibility: "visible" } : {}} className="startTest">
