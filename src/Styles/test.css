@@ -2,11 +2,31 @@
 
 
 .cointenerTest{
+    font-family: 'Roboto Slab';
     text-align: center;
     height: 100%;
+    margin-bottom: 80px;
 }
 .title{
     font-family: 'Roboto Slab';
     font-size: 30px;
     color: #95006D;
+}
+
+.startTest{
+    margin: 0 auto;
+    width: 40%;
+    visibility:hidden;
+}
+.textQuestions{
+    font-family: 'Roboto Slab';
+    text-align: left;
+}
+.buttonGreen{
+    background: #C4D600;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #95006D;
+    font-weight: 400;
 }
