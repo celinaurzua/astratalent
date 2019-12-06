@@ -75,7 +75,7 @@ class Testfeedback extends Component {
             following steps in your procces very soon. Stay tuned
           </p>
           <Link to="/">
-            <button className="buttonGreen" >Log out</button>
+            <button className="buttonGreen">Finish</button>
           </Link>
         </div>
         <Footer />

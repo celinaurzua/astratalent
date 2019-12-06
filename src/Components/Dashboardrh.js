@@ -58,7 +58,7 @@ class Dashboardrh extends Component {
             </div>
           </div>
           <div className="orderButtons">
-            <Link to="statistics" className="">
+            <Link to="statistics">
               <button className="buttonsStadistics">Stadistics</button>
             </Link>
             <Link>
@@ -71,7 +71,7 @@ class Dashboardrh extends Component {
 
         <div className="containerTalent">
           <div>
-            <p>Emma Flores</p>
+            <p className="nameApplicant">Emma Flores</p>
           </div>
           <div className="order">
             <div className="test">
@@ -101,7 +101,7 @@ class Dashboardrh extends Component {
 
         <div className="containerTalent">
           <div>
-            <p>Miranda Carrillo</p>
+            <p className="nameApplicant">Miranda Carrillo</p>
           </div>
           <div className="order">
             <div className="test">

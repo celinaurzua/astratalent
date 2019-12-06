@@ -23,6 +23,9 @@
     width: 40%;
     visibility:hidden;
 }
+.instructionTextCode{
+    text-align: left;
+}
 .textQuestions{
     font-family: 'Roboto Slab';
     text-align: left;
