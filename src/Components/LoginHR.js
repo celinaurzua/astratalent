@@ -44,7 +44,7 @@ export default class LoginHR extends React.Component {
     const { emailInput } = this.state;
     return (
       <div className="cointenerContact">
-        <p>Log in Applicant</p>
+        <p>Log in Candidate</p>
         <input
           type="text"
           value={emailInput}
