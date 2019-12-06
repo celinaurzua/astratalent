@@ -96,8 +96,8 @@ const data = {
   ],
   codeTest: [
     {
-      code: "",
-      example: ""
+      code: "Complete la función solveMe para calcular la suma de dos enteros. Prototipo de la función: int solveMe (int a, int b); dónde, a es la primera entrada entera. b es la segunda entrada entera Valores de retorno suma de los dos enteros anteriores Entrada de muestra a = 2 b = 3   Salida de muestra 5   Explicación La suma de los dos números enteros a y b se calcula como: 2 + 3 = 5.",
+      example: "process.stdin.resume(); process.stdin.setEncoding('ascii');   var input_stdin = ''; var input_stdin_array = ''; var input_currentline = 0;   process.stdin.on('data', function (data) {    input_stdin += data; });   process.stdin.on('end', function () {    input_stdin_array = input_stdin.split('\n');    main();    }); function readLine() {     return input_stdin_array[input_currentline++]; }   function solveMeFirst(a, b) {   // Hint: Type return a+b below    }     function main() {     var a = parseInt(readLine());     var b = parseInt(readLine());;       var res = solveMeFirst(a, b);     console.log(res); }"
     }
   ]
 };
