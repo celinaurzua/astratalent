@@ -7,9 +7,18 @@ import menuTestTwo from '../Images/menu-dos.png';
 
 
 class Testtwo extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible:false,
+    }
+  }
 
-  AlertStartTest() {
-    alert("XXXXX") 
+  AlertStartTest=()=> {
+    alert("XXXXX")
+    this.setState({
+      visible:true,
+    })
    }
 
    render() {
@@ -21,12 +30,15 @@ class Testtwo extends Component {
           <img src={menuTestTwo} alt="" />
           <div>
             <p></p>
+                <button onClick={() => this.AlertStartTest()}>Iniciar Test</button>
+          <Timer visible={this.state.visible} />
             <Link to="testthree">
-              <button onClick={() => this.AlertStartTest()}>START TEST 2</button>
+              <button>START TEST 2</button>
             </Link>
           </div>
         </div>
         <Footer />
+
       </div>
     );
   }

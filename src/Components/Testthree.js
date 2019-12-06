@@ -7,9 +7,18 @@ import menuTree from '../Images/menu-tres.png';
 
 
 class Testthree extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visible:false,
+    }
+  }
 
-  AlertStartTest() {
-    alert("XXXXX") 
+  AlertStartTest=()=> {
+    alert("XXXXX")
+    this.setState({
+      visible:true,
+    })
    }
 
    render() {
@@ -21,14 +30,16 @@ class Testthree extends Component {
           <img src={menuTree} alt="" />
           <div>
             <p></p>
-
+          <button onClick={() => this.AlertStartTest()}>Iniciar Test</button>
+          <Timer visible={this.state.visible} />
 
             <Link to="testfeedback">
-              <button onClick={() => this.AlertStartTest()}>FINISH</button>
+              <button>FINISH</button>
             </Link>
           </div>
         </div>
         <Footer />
+
       </div>
     );
   }

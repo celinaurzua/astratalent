@@ -7,11 +7,19 @@ import menuTestOne from '../Images/menu-uno.png';
 
 
 class Testone extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        visible:false,
+      }
+    }
 
-  AlertStartTest() {
-    alert("XXXXX") 
+  AlertStartTest=()=> {
+    alert("XXXXX")
+    this.setState({
+      visible:true,
+    })
    }
-
    render() {
     return (
       <div>
@@ -22,13 +30,15 @@ class Testone extends Component {
 
           <div>
             <p></p>
-
+<button onClick={() => this.AlertStartTest()}>Iniciar Test</button>
+<Timer visible={this.state.visible} />
             <Link to="testtwo">
-              <button onClick={() => this.AlertStartTest()}>START TEST 2</button>
+              <button>START TEST 2</button>
             </Link>
           </div>
         </div>
         <Footer />
+
       </div>
     );
   }
