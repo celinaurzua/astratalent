@@ -21,7 +21,7 @@ export default class Timer extends Component {
     )
   }
   
-  componentWillReceiveProps=(visible)=> {
+  UNSAFE_componentWillReceiveProps=(visible)=> {
     if(visible){
     this.myInterval = setInterval(() => {
       const { seconds, minutes } = this.state
