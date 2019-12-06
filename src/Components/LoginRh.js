@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Data from "./Data";
+import Ilustration from "../Images/login-ilustration.png";
 
 export default class LoginHR extends React.Component {
   state = {
@@ -33,17 +34,21 @@ export default class LoginHR extends React.Component {
     console.log(this.state.password);
     const { emailInput } = this.state;
     return (
-      <div className="cointenerContact">
-        <p>Log in Candidate</p>
-        <input
+      <div className="cointenerLogIn">
+        <div>
+        <img className="imgLogin" src={Ilustration} alt="" />
+        <p className="title">Write your key</p>
+        <input className="inputTxt"
           type="text"
           value={emailInput}
           placeholder="Please add your email"
           onChange={this.addPassword}
         ></input>
+        <br/>
         <Link to="/rh">
-          <button onClick={this.checkPassword}>Log in</button>
+          <button className="buttonLoging" onClick={this.checkPassword}>Log in</button>
         </Link>
+        </div>
         <Footer />
       </div>
     );

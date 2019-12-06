@@ -4,7 +4,7 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import LoginCandidate from './Components/LoginCandidate'
 import TestWelcome from './Components/TestWelcome'
-import TestOne from './Components/TestOne'
+import TestOne from './Components/TesTone'
 import TestTwo from './Components/TestTwo'
 import TestThree from './Components/TestThree'
 import TestFeedback from './Components/TestFeedback'

@@ -3,7 +3,7 @@
 
 .containerForm{
     font-family: 'Roboto Slab';
-    padding: 70px;
+    padding: 30px;
     text-align: center;
     background-color: #F3F2EA;
     display: flex;
@@ -11,7 +11,7 @@
     margin: 0 auto;
     flex-direction: column;
     margin-bottom: 50px;
-    width: 25%;
+    width: 30%;
     height: 15%;
 }
 
@@ -70,8 +70,7 @@
 }
 
 .inputsForm{
-    padding: 10px;
-    border-radius: 7px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -81,18 +80,25 @@
     background-color: #C4D600;
     border-radius: 5px;
 }
-
+.nameApplicant{
+    font-size: 20px;
+    color: #95006D;
+}
+.buttonAdd{
+    background: #C4D600;
+    padding: 15px;
+}
 
 .buttonsStadistics {
     background: #C4D600;
-    padding: 13px;
+    padding: 15px;
     width: 100%;
     font-size: 20px;
     color: #95006D;
-    font-weight: 800;
-    border-radius: 5px;
+    margin-top: 40px;
     display: block;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .testRed{
