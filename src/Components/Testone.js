@@ -14,7 +14,7 @@ class Testone extends Component {
     }
 
   AlertStartTest=()=> {
-    alert("XXXXX")
+    alert("You can answer this test only once. If you decide to leave, the test will be blocked and you will not be able to continue answering questions. You can answer this test only once. Are you sure you want to leave the test now?")
     this.setState({
       visible:true,
     })
