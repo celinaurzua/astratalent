@@ -6,13 +6,13 @@
     text-align: center;
     height: 100%;
     margin-bottom: 80px;
+    margin: 0 auto;
 }
 .title{
     font-family: 'Roboto Slab';
     font-size: 30px;
     color: #95006D;
 }
-
 .startTest{
     margin: 0 auto;
     width: 40%;

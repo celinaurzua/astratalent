@@ -15,13 +15,10 @@ class Testwelcome extends Component {
         <div className="cointenerTest">
           <p className="title">Welcome</p>
           <img src={menuWecome} alt="" />
-
           <div>
-            <p></p>
-
+          <p> INSTRUCTIONS </p>
             <Link to="testone">
-              
-              <button className="buttonGreen" onClick={() => this.AlertStartTest()}>START TEST 1</button>
+              <button className="buttonGreen">Start</button>
             </Link>
           </div>
         </div>

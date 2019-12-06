@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,900&display=swap");
 
+
 .cointenerLogIn{
     font-family: 'Roboto Slab';
     text-align: center;
+}
+.imgLogin{
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.inputTxt{
+    padding: 25px;
+    width: 30%;
+}
+.buttonLoging{
+    margin-bottom: 50px;
+    background: #C4D600;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #95006D;
+    font-weight: 400;
 }

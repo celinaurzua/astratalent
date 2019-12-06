@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Data from "./Data";
+import Ilustration from "../Images/login-ilustration.png";
+import '../Styles/logInApplicant.css';
 
 class Loginapplicant extends Component {
   state = {
@@ -46,17 +48,21 @@ class Loginapplicant extends Component {
     console.log(this.state.arr);
     const { emailInput } = this.state;
     return (
-      <div className="cointenerContact">
-        <p>Log in Applicant</p>
-        <input
+      <div className="cointenerLogIn">
+        <div>
+        <img className="imgLogin" src={Ilustration} alt="" />
+        <p className="title" >Write your email</p>
+        <input className="inputTxt"
           type="text"
           value={emailInput}
           placeholder="Please add your email"
           onChange={this.addEmail}
         ></input>
+        <br/>
         <Link to="/welcome">
-          <button onClick={this.checkEmail}>Log in</button>
+          <button className="buttonLoging" onClick={this.checkEmail}>Log in</button>
         </Link>
+        </div>
         <Footer />
       </div>
     );
